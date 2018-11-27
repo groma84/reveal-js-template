@@ -32,12 +32,17 @@ After cloning this repo:
 
 That's it!
 
-How to run a linux bash script on windows?
+## How to run a linux bash script on windows?
 
 - easiest solution: minimal bash shell included with Git-for-windows (`git bash`)
 - Or the Full-Linux Support with Windows10. 
 - Or Cygwin. 
 - Or...
+
+### If you get 'wget: command not found' on Windows 10
+On a fresh install of Windows 10 neither git bash nor cmder contain wget:
+- to add it to `git bash` follow [this gist](https://gist.github.com/evanwill/0207876c3243bbb6863e65ec5dc3f058). 
+- for `cmder` please refer to [this installation tutorial](https://evanwill.github.io/_drafts/notes/cmdr.html). 
 
 # Project structure
 
